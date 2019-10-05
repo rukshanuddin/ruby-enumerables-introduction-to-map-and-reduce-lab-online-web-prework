@@ -20,6 +20,7 @@ def reduce_to_all_true(source_array)
    if source_array[i]
      return true
    end
+ else return false
      i += 1
 end
 
